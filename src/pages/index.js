@@ -22,7 +22,7 @@ export default function Home({ data }) {
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <h3
-              css={css`
+              css={css` 
                 margin-bottom: ${rhythm(1 / 4)};
               `}
             >
